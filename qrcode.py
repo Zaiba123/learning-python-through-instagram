@@ -6,5 +6,5 @@ s= "https://zaiba.netlify.app/"
 
 url= pyqrcode.create(s)
 
-url.svg("zaiba.svg",scale=8)
-url.png('zaiba.png', scale = 6)
+url.svg("qrcode.svg",scale=8)
+url.png('qrcode.png', scale = 6)
