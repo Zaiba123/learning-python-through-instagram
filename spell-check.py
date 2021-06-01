@@ -1,7 +1,7 @@
 from textblob import TextBlob
 
+misspelt = input("Enter an misspelt sentence")
+print(f'original text: {misspelt}')
 
-a = "I do not know how to use a computar"
-print(f'original text: {a}')
-b = TextBlob(a)
-print(f'corrected text: {b.correct()}')
+corrected = TextBlob(misspelt)
+print(f'corrected text: {corrected.correct()}')
